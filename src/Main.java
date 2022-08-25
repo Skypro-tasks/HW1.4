@@ -35,9 +35,9 @@ public class Main {
         int currentYear = 2022;
         int startOfPeriod = currentYear - 200;
         int finishOfPeriod = currentYear + 79;
-        for (int i = 0; i <= finishOfPeriod; i+=79) {
-            if(i > startOfPeriod){
-                System.out.println(i);
+        for (int year = 0; year <= finishOfPeriod; year+=79) {
+            if(year > startOfPeriod){
+                System.out.println(year);
             }
         }
         System.out.println();
@@ -53,9 +53,8 @@ public class Main {
                 System.out.print("pong ");
             }
             System.out.println();
-            System.out.println();
-
         }
+        System.out.println();
     }
 
     private static void task5() {
